@@ -1,52 +1,67 @@
 section(class="canvas section-2" id="section-2")
 
-    h2 Section 2
+    h2 Features
 
     div(class="content")
 
         div
 
-            svg: use(xlink:href="/assets/images/_sprites/symbols.svg#image")
+            svg: use(xlink:href="images/home/section-1/_inline/structure.png#image")
 
             article
 
-                h2 Modulari
+                h2 Mobile Devices
                 p.
-                    Alita sunt encapsulated in modularized dum re-utilis componentia funcionalidades
-                    est, evolutionis et sustentacionem facere facillimus.
+                    Mobile computing devices have played an essential role in our daily
+                    life, as we increasingly rely on them for daily communication, web
+                    browsing, online shopping, mobile banking, etc. Especially, quite a
+                    few people also use mobile devices to deal with professional work
+                    or even political tasks.
 
         div
 
-            svg: use(xlink:href="/assets/images/_sprites/symbols.svg#image")
+            svg: use(xlink:href="images/home/section-1/_inline/structure.png")
 
             article
 
-                h2 Effectus
+                h2 PDE System
                 p.
-                    De bellis primaria est de cursu. Ledo terram currit et uirtutem robustam, te
-                    studiosíssime reténtis ficti videantur innitatur launch consilio ad tribunal a
-                    quo.
+                   Plausibly Deniable Encryption (PDE) is a technique designed to 
+                   address the aforementioned issue.
+                    The PDE can convincingly deny the very existence of sensitive
+                    data, by which even the active attackers cannot prove that sensitive
+                    data exists. 
 
         div
 
-            svg: use(xlink:href="/assets/images/_sprites/symbols.svg#image")
+            svg: use(xlink:href="images/home/section-1/_inline/structure.png")
 
             article
 
-                h2 Curvabilis
+                h2 NAND Flash
                 p.
-                    Id in suggestu tu targeting, hoc non habet aliquid compage tooling ut tabernus
-                    in subsidium et infinita puncta media confractus, query in auxilio tuo.
+                     Most existing PDE
+                    systems for mobile devices are built on the block
+                    layer and unfortunately suffer from deniability compromise in the
+                    underlying raw flash memory. A fundamental reason is that raw
+                    flash memory requires special internal management to handle its
+                    unique nature. Therefore, traces of sensitive data may be present
+                    in the raw flash memory and observed by the snapshot adversaries
+                    , compromising deniability
 
         div
 
-            svg: use(xlink:href="/assets/images/_sprites/symbols.svg#image")
+            svg: use(xlink:href="images/home/section-1/_inline/trustzone.png")
 
             article
 
-                h2 Habilius
+                h2 TrustZone
                 p.
-                    Cum modularis differentialis architectura vis et quantum vis compage. Vel iustus
-                    utor vestri arbitrium of ars assituationem enable velit moduli.
+                    TrustZone is a Trust Execution Environment (TEE) on ARM. 
+                    Similar to other hardware isolation technologies, it provides two
+                    environments or worlds. The TEE, the secure world, 
+                    and the Rich Execution Environment (REE), the normal world.
+                    The CPU on a TrustZone-enabled ARM platform has
+                    two security modes: secure mode and normal mode.
 
     +nav-1({ target: "section-3", direction: "next" })
